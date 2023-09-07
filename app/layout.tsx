@@ -1,4 +1,6 @@
-import './globals.css'
+"use client"
+import { ChakraProvider } from '@chakra-ui/react'
+import Navbar from '@/components/Navbar'
 
 export const metadata = {
   title: 'Create Next App',
@@ -12,7 +14,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <ChakraProvider>
+          <Navbar />
+          
+          <main>{children}</main>
+        </ChakraProvider>
+      </body>
     </html>
   )
 }
