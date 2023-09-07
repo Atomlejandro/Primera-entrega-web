@@ -80,8 +80,7 @@ export default function QuienesSomos() {
             rounded={'md'}
             alt={'feature image'}
             src={
-              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfFu6jv_8aktrdn7os67OzwHuVAX5GvyNSmg&usqp=CAU'
-            }
+              'https://images.vexels.com/content/78830/preview/idea-man-drawing-d9d899.png'}
             objectFit={'cover'}
           />
         </Flex>
